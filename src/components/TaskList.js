@@ -1,16 +1,13 @@
 const TaskList = () => {
 
+    const taskList = ["Breakfast", "Watch news", "Read a productivity book"];
+
     return (
         <div className="task-list">
 
-            {/* <TaskItem /> */}
-            <div className="task-item">Breakfast</div>
-
-            {/* <TaskItem /> */}
-            <div className="task-item">Watch news</div>
-
-            {/* <TaskItem /> */}
-            <div className="task-item">Read a productivity book</div>
+            {taskList.map(task => (
+                <div className="task-item">{ task }</div>
+            ))}
 
         </div>
     )
