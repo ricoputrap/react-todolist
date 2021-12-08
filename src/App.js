@@ -1,8 +1,11 @@
 import "./App.css";
 
 const App = () => {
+
   return (
-    <div>HALO DUNIA :)</div>
+    <div className="root">
+      HALO DUNIA :) 
+    </div>
   )
 }
 
