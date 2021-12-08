@@ -1,10 +1,14 @@
+import TaskList from "./components/TaskList";
 import "./App.css";
 
 const App = () => {
 
   return (
     <div className="root">
-      HALO DUNIA :) 
+
+      {/* <AddTask /> */}
+      
+      <TaskList />
     </div>
   )
 }
