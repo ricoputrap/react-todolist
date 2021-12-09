@@ -8,6 +8,7 @@ body {
     display: flex;
     justify-content: center;  /* Horizontally Centered */
     align-items: center;      /* Vertically Centered */
+    flex-direction: column;
 }
 
 /* TASK LIST: <TaskList /> */
@@ -39,4 +40,16 @@ body {
     
     line-height: 24px;
     letter-spacing: 0.05em;
+}
+
+/* ADD TASK: <AddTask /> */
+.add-task {
+    background-color: #FFFFFF;
+    padding: 20px;
+
+    border: 1px solid #F0EFF2;
+    border-radius: 8px;
+
+    width: 400px;
+    margin-bottom: 12px;
 }

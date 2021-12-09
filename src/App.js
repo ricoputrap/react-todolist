@@ -1,4 +1,5 @@
 import TaskList from "./components/TaskList";
+import AddTask from "./components/AddTask";
 import "./App.css";
 
 const App = () => {
@@ -6,7 +7,7 @@ const App = () => {
   return (
     <div className="root">
 
-      {/* <AddTask /> */}
+      <AddTask />
       
       <TaskList />
     </div>
