@@ -7,8 +7,8 @@ const TaskList = () => {
     return (
         <div className="task-list">
 
-            {taskList.map(task => (
-                <TaskItem data={task} />
+            {taskList.map(sebuahTask => (
+                <TaskItem task={sebuahTask} />
             ))}
 
         </div>

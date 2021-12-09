@@ -1,7 +1,9 @@
-const TaskItem = ({ data }) => {
+const TaskItem = ({ task }) => {
 
     return (
-        <div className="task-item">{ data }</div>
+        <div className="task-item">
+            <span className="task-item__name">{ task }</span>
+        </div>
     )
 }
 
