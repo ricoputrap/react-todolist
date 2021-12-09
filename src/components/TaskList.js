@@ -1,3 +1,5 @@
+import TaskItem from "./TaskItem";
+
 const TaskList = () => {
 
     const taskList = ["Breakfast", "Watch news", "Read a productivity book"];
@@ -6,7 +8,7 @@ const TaskList = () => {
         <div className="task-list">
 
             {taskList.map(task => (
-                <div className="task-item">{ task }</div>
+                <TaskItem data={task} />
             ))}
 
         </div>
