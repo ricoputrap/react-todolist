@@ -8,7 +8,7 @@ const TaskList = () => {
         <div className="task-list">
 
             {taskList.map(sebuahTask => (
-                <TaskItem task={sebuahTask} />
+                <TaskItem task={sebuahTask} key={ sebuahTask } />
             ))}
 
         </div>
